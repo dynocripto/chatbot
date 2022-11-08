@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "saludos",
+    "patterns": ["hola", "hey", "jelouda", "buen día", "buenos dias", "¿que tal?", "que tal?", "¿como estas?", "como estas?"],
+    "responses": ["Hola!", "Hey!", "¿Qué puedo hacer por ti?"]
+    },
+    {"tag": "despedidas",
+    "patterns": ["adios", "nos vemos luego", "bye", "ciao", "chao", "me tengo que ir", "te tengo que dejar"],
+    "responses": ["Adios!", "Lástima, hablamos luego :(", "Hablamos luego", "Un placer hablar contigo, hasta la proxima"]
+    },
+    {"tag": "edad",
+    "patterns": ["que edad", "¿que edad tienes?", "edad?", "¿eres mayor?"],
+    "responses": ["Mis creadores son mayores, yo apenas existo", "Hey! Eso no se le pregunta a una dama", "25 años :D"]
+    },
+    {"tag": "nombre",
+    "patterns": ["cual es tu nombre?", "¿cual es tu nombre?", "como te llamas?", "¿como te llamas?", "¿quien eres?", "¿como puedo llamarte?"],
+    "responses": ["Me llamo Steve, creo", "Me gusta el nombre Neurall", "No tengo un nombre, así que como prefieras", "Ada, se pronuncia aida"]
+    },
+    {"tag": "preguntas",
+    "patterns": ["me gustaria preguntarte algo", "¿te puedo hacer una pregunta?", "pregunta", "¿me aclaras una duda?"],
+    "responses": ["Claro! Para eso estoy", "Pregunta con confianza", "Hare mi mejor intento por darte una respuesta"]
+    },
+    {"tag": "hora",
+    "patterns": ["que hora es?", "¿que hora es?", "me das la hora?", "¿me das la hora?"],
+    "responses": ["Me es dificil decirte sin saber donde estas. Y preguntar eso es un riesgo de seguridad. Lo siento"]
+    }
+]}
